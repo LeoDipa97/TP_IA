@@ -1,3 +1,6 @@
+# Explicación del ejemplo
+Una aplicación práctica del clustering jerárquico en el ámbito de la salud. Suponga que se tienen datos médicos de pacientes con enfermedades cardiovasculares y se quiere identificar patrones de síntomas para personalizar tratamientos o estrategias de intervención.
+
 # Paso a paso
 ## Generación de Datos
 En este paso, se generan datos ficticios utilizando la función make_blobs de scikit-learn. Se crean 300 puntos de datos distribuidos alrededor de 4 centros. Estos datos podrían representar, por ejemplo, características de pacientes en un estudio médico.
@@ -40,4 +43,8 @@ plt.title('Clustering Jerárquico - Datos Agrupados')
 plt.xlabel('Feature 1')
 plt.ylabel('Feature 2')
 plt.show()_
+
+# Posible conclusión
+Al observar el dendrograma, podríamos identificar, por ejemplo, dos clústeres principales. Un clúster puede agrupar a pacientes con síntomas relacionados con la presión arterial y el colesterol, mientras que otro clúster puede agrupar a aquellos con síntomas relacionados con el IMC y los hábitos de estilo de vida.
+Esto proporciona una visión estructurada de cómo se manifiestan los síntomas en diferentes grupos de pacientes, lo que podría ser útil para personalizar intervenciones o tratamientos específicos para cada clúster.
 
